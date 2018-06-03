@@ -153,6 +153,11 @@ class DBHelper {
     return (`/img/${restaurant.photograph}`);
   }
 
+  /** Cris Code for Alt text */
+  static altUrlforRestaurant(restaurant){
+    return(restaurant.alt);
+  }
+
   /**
    * Map marker for a restaurant.
    */
